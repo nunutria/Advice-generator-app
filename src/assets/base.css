@@ -1,0 +1,37 @@
+:root {
+  /* Colores primarios */
+  --lightCyan: hsl(180, 100%, 94%);
+  --neonGreen: hsl(150, 100%, 66%);
+
+  /* Colores neutros */
+  --grayishBlue: hsl(217, 19%, 38%);
+  --darkGrayishBlue: hsl(217, 19%, 24%);
+  --darkBlue: hsl(218, 23%, 16%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Tipografía */
+  --fontQuote: 1.75rem;
+  --fontFamily: 'Manrope', sans-serif;
+  --fontWeightBold: 700;
+  --fontWeightBlack: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 62.5%;
+  font-family: var(--fontFamily);
+  text-rendering: optimizeLegibility;
+  color: var(--white);
+  background: var(--darkBlue);
+  display: grid;
+  place-content: center;
+  padding: 0 12px;
+}
