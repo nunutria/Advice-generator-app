@@ -37,10 +37,10 @@ getAdvice();
       <h1>"{{ advice }}"</h1>
       <picture>
         <source
-          srcset="@/assets/pattern-divider-desktop.svg"
+          srcset="../assets/pattern-divider-desktop.svg"
           media="(min-width:992px)"
         />
-        <img src="@/assets/pattern-divider-mobile.svg" alt="Separator mobile" />
+        <img src="../assets/pattern-divider-mobile.svg" alt="Separator mobile" />
       </picture>
     </section>
 
@@ -121,7 +121,7 @@ getAdvice();
   border-radius: 50%;
   cursor: pointer;
   border: none;
-  background-image: url('@/assets/icon-dice.svg');
+  background-image: url('../assets/icon-dice.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px;
